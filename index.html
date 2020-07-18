@@ -9,6 +9,47 @@
     <title>CSS Training!</title>
   </head>
   <body>
-      <p>Hi!</p>
+      <header class="header">
+          <a href="#main" class="btn btn--main">Main</a>
+          <a href="#things" class="btn btn--things">Things</a>
+          <a href="#contact" class="btn btn--contact">Contact</a>
+      </header>
+
+      <div class="main">
+          <h1 class="main-head">It's CSS Training!</h1>
+          <h2 class="main-caption">very cool</h2>
+      </div>
+
+      <div class="things">
+          <p class="things-title">These are things I made :)</p>
+          <div class="things-windows">
+            <div class="things-window things-window--poster1">
+                <img class="things-window__img" src="icon.png" alt="">
+                <p class="things-window__p">Poster 1</p>
+            </div>
+            <div class="things-window things-window--poster2">
+                <img src="icon.png" alt="">
+                <p>Poster 2</p>
+            </div>
+            <div class="things-window things-window--blender">
+                <img src="icon.png" alt="">
+                <p>3D model of Portal 2 cube</p>
+            </div>
+            <div class="things-window things-window--gol">
+                <img src="icon.png" alt="">
+                <p>Game of Life</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="contacts">
+          <p class="contacts-head">These are my socials...</p>
+          <p class="contacts-caption">If you really want to contact me</p>
+          <div class="contacts-content">
+              <p class="contact contact--github">Github</p>
+              <p class="contact contact--mail">E-mail</p>
+              <p class="contact contact--tel">Phone</p>
+          </div>
+      </div>
   </body>
 </html>
