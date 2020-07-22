@@ -30,7 +30,7 @@ body {
 }
 
 .btn {
-    width: 8%;
+    width: 4em;
     height: 3em;
     text-align: center;
     line-height: 3em;
@@ -57,7 +57,8 @@ body {
 
 .main-head {
     font-weight: 500;
-    font-size: 3em;
+    font-size: 9vw;
+    text-align: center;
 }
 
 .main-caption {
@@ -65,6 +66,8 @@ body {
     font-size: 1.5em;
     font-style: italic;
     color: #b10000;
+    text-align: center;
+    font-size: 6vw;
 }
 
 #things {
@@ -72,7 +75,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    width: 100%;
+    width: 100vw;
     padding-top: 6%;
     padding-bottom: 6%;
 
@@ -81,12 +84,13 @@ body {
 
 .things-title {
     padding: 10px;
-    border-bottom-width: 2px;
+    border-bottom-width: 0.2vh;
     border-bottom-style: solid;
     border-bottom-color: #ffffff;
 
     font-weight: 500;
-    font-size: 2em;
+    font-size: 5vw;
+    text-align: center;
 }
 
 .things-windows {
@@ -100,9 +104,9 @@ body {
 }
 
 .things-window {
-    width: 30%;
-    margin: 1%;
-    background-color: #946c00;
+    width: 310px;
+    margin: 20px;
+    background-color: #ffffff;
 
     text-align: center;
 }
@@ -116,8 +120,9 @@ body {
 
 #contacts {
     background-color: #727272;
-    padding-top: 15%;
+    padding-top: 40vh;
     width: 100%;
+    height: 90vh;
 
     display: flex;
     flex-direction: column;
@@ -132,6 +137,7 @@ body {
     width: 80%;
     padding-top: 5%;
     padding-bottom: 15%;
+    font-size: 3vh;
 }
 
 .contact {
@@ -141,22 +147,27 @@ body {
 
 .contacts-head {
     font-weight: 500;
-    font-size: 3em;
+    font-size: 7vw;
+    text-align: center;
 }
 
 .contacts-caption {
     font-weight: 200;
     font-style: italic;
-    font-size: 1em;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .end-info {
     display: flex;
     flex-direction: row;
+    background-color: #727272;
 
     width: 100%;
+    height: 5%;
     padding: 2%;
-    border-top: 4px solid #b10000;
+    border-top: 0.4vh solid #b10000;
+    align-self: flex-end;
 }
 
 .end-info-statement {
@@ -164,7 +175,7 @@ body {
     align-self: left;
     line-height: 2em;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 2vw;
 }
 
 .made-by {
@@ -173,6 +184,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-self: right;
+    font-size: 2vw;
 }
 
 .made-by__logo {
